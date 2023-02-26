@@ -3,3 +3,35 @@
 @import 'header';
 @import 'main';
 @import 'footer';
+
+
+.sec1-container {
+    display: flex;
+    min-width: 1109px;   
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+.sec1-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: ;
+}
+
+
+span {
+    border-top: 2px solid rgb(175, 173, 173);
+}
+
+.sec1-right {
+    display: flex;
+    align-self: flex-end;   
+    height: 34px;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+
+.text-blue {
+    color: #4A4FF2;
+}
