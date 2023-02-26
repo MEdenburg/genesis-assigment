@@ -1,2 +1,29 @@
+header {
+  display: flex;
+  height: 23px;
+  margin-top: 61px;
+  max-width: 1109px;
+  width: 100%;
+  justify-content: space-between;
+}
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav__li {
+  list-style: none;
+  margin-left: 29px;
+}
+
+body {
+  font-family: "Mulish";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 /*# sourceMappingURL=project.css.map */
