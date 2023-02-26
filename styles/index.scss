@@ -15,11 +15,17 @@
 .sec1-left {
     display: flex;
     flex-direction: column;
-    margin-top: ;
 }
 
+.sec1-main {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    max-width: 635px;
+    width: 100%;
+}
 
-span {
+.top-border {
     border-top: 2px solid rgb(175, 173, 173);
 }
 
@@ -31,7 +37,12 @@ span {
     font-style: italic;
 }
 
-
+.star {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
 .text-blue {
     color: #4A4FF2;
 }
