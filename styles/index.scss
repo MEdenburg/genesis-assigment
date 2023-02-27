@@ -107,3 +107,45 @@
 .grid12 {
     grid-area: 27 / 7 / 32 / 9;
 }
+
+.sec3-container {
+    max-width: 1079px;
+    width: 100%;
+    display: flex;
+}
+
+.sec3-left {
+    max-width: 635px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.sec3-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+    min-width: 262px;
+    width: 100%;
+    
+}
+
+.list-right {
+    margin-right: 31px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+.sec3__link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.sec3__link:hover {
+    color: #4A4FF2;
+}
