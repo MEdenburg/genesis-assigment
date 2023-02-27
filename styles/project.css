@@ -106,4 +106,17 @@ footer {
 .sec1-opacity {
   opacity: 0.5;
 }
+
+.img-female {
+  margin-bottom: 29px;
+}
+
+.sec3-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 1109px;
+  width: 100%;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=project.css.map */
