@@ -18,4 +18,16 @@ header {
         list-style: none;
         margin-left: 29px;
     }
+    &__link {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.346154px;
+        text-decoration: none;
+        color: #111111;
+        &:hover {
+            color: #4A4FF2;
+        }
+    }
 }
