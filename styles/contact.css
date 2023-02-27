@@ -47,4 +47,8 @@ footer {
   width: 100%;
   justify-content: space-between;
 }
+
+.sec1-container {
+  display: flex;
+}
 /*# sourceMappingURL=contact.css.map */
