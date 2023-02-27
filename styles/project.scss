@@ -3,3 +3,62 @@
 @import 'header';
 @import 'main';
 @import 'footer';
+
+.sec1-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1120px;
+    width: 100%;
+    height: 381px;
+    margin-top: 100px;
+    margin-bottom: 61px;
+}
+
+.sec1-container-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1-container-left-top {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    max-width: 495px;
+    width: 100%;
+    text-align: start;
+}
+
+.sec1-container-left-bottom {
+    max-width: 635px;
+    width: 100%;
+}
+
+.sec1-container-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 335px;
+    width: 100%;
+    min-height: 343px;
+
+}
+
+.sec1-container-right1 {
+    display: flex;
+    justify-content: space-between;
+    min-height: 42px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #979797;
+}
+
+.sec1-text-right {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+}
+
+
+
+.sec1-opacity {
+    opacity: 0.5;
+}
