@@ -51,4 +51,37 @@ footer {
 .sec1-container {
   display: flex;
 }
+
+.sec1-container-left-top {
+  text-align: start;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  max-width: 475px;
+  width: 100%;
+  min-height: 174px;
+}
+
+.sec1-container-left-bottom {
+  max-width: 445px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.btn {
+  width: 125px;
+  height: 50px;
+  background-color: #4A4FF2;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+.btn:hover {
+  color: rgb(6, 176, 248);
+}
 /*# sourceMappingURL=contact.css.map */
