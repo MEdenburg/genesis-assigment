@@ -50,6 +50,7 @@ footer {
 
 .sec1-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .sec1-container-left-top {
@@ -71,6 +72,16 @@ footer {
   opacity: 0.8;
 }
 
+.sec1-container-right {
+  max-width: 475px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
 .btn {
   width: 125px;
   height: 50px;
@@ -80,8 +91,27 @@ footer {
   font-size: 16px;
   line-height: 20px;
   border: none;
+  margin-top: 38px;
 }
 .btn:hover {
   color: rgb(6, 176, 248);
+}
+
+.input-field {
+  height: 37px;
+  border: none;
+  max-width: 475px;
+  width: 100%;
+}
+
+.text-area {
+  border: none;
+  height: 37px;
+  max-width: 475px;
+  width: 100%;
+}
+
+.form-box {
+  border-bottom: 1px solid #979797;
 }
 /*# sourceMappingURL=contact.css.map */
